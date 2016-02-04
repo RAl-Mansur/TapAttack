@@ -12,6 +12,7 @@
 		0DC47DA51C63FD0300AB75C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC47DA31C63FD0300AB75C1 /* Main.storyboard */; };
 		0DC47DA71C63FD0300AB75C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC47DA61C63FD0300AB75C1 /* Assets.xcassets */; };
 		0DC47DAA1C63FD0300AB75C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC47DA81C63FD0300AB75C1 /* LaunchScreen.storyboard */; };
+		0DC47DB21C64022100AB75C1 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DC47DB11C64022100AB75C1 /* Minecraft.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		0DC47DA61C63FD0300AB75C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0DC47DA91C63FD0300AB75C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DC47DAB1C63FD0300AB75C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DC47DB11C64022100AB75C1 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				0DC47DA11C63FD0300AB75C1 /* ViewController.swift */,
 				0DC47DA31C63FD0300AB75C1 /* Main.storyboard */,
 				0DC47DA61C63FD0300AB75C1 /* Assets.xcassets */,
+				0DC47DB11C64022100AB75C1 /* Minecraft.ttf */,
 				0DC47DA81C63FD0300AB75C1 /* LaunchScreen.storyboard */,
 				0DC47DAB1C63FD0300AB75C1 /* Info.plist */,
 			);
@@ -125,6 +128,7 @@
 			files = (
 				0DC47DAA1C63FD0300AB75C1 /* LaunchScreen.storyboard in Resources */,
 				0DC47DA71C63FD0300AB75C1 /* Assets.xcassets in Resources */,
+				0DC47DB21C64022100AB75C1 /* Minecraft.ttf in Resources */,
 				0DC47DA51C63FD0300AB75C1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
