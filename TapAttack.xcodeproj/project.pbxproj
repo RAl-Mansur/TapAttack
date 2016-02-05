@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2024DD1C6520BD004DA71B /* ForTheSilentNightPSG.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0D2024DC1C6520BD004DA71B /* ForTheSilentNightPSG.mp3 */; };
 		0DC47DA01C63FD0300AB75C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC47D9F1C63FD0300AB75C1 /* AppDelegate.swift */; };
 		0DC47DA21C63FD0300AB75C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC47DA11C63FD0300AB75C1 /* ViewController.swift */; };
 		0DC47DA51C63FD0300AB75C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC47DA31C63FD0300AB75C1 /* Main.storyboard */; };
 		0DC47DA71C63FD0300AB75C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DC47DA61C63FD0300AB75C1 /* Assets.xcassets */; };
 		0DC47DAA1C63FD0300AB75C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC47DA81C63FD0300AB75C1 /* LaunchScreen.storyboard */; };
 		0DC47DB21C64022100AB75C1 /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0DC47DB11C64022100AB75C1 /* Minecraft.ttf */; };
+		0DC47DB41C6404F400AB75C1 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC47DB31C6404F400AB75C1 /* Character.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D2024DC1C6520BD004DA71B /* ForTheSilentNightPSG.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ForTheSilentNightPSG.mp3; sourceTree = "<group>"; };
 		0DC47D9C1C63FD0200AB75C1 /* TapAttack.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TapAttack.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC47D9F1C63FD0300AB75C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DC47DA11C63FD0300AB75C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		0DC47DA91C63FD0300AB75C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0DC47DAB1C63FD0300AB75C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0DC47DB11C64022100AB75C1 /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		0DC47DB31C6404F400AB75C1 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				0DC47DB11C64022100AB75C1 /* Minecraft.ttf */,
 				0DC47DA81C63FD0300AB75C1 /* LaunchScreen.storyboard */,
 				0DC47DAB1C63FD0300AB75C1 /* Info.plist */,
+				0DC47DB31C6404F400AB75C1 /* Character.swift */,
+				0D2024DC1C6520BD004DA71B /* ForTheSilentNightPSG.mp3 */,
 			);
 			path = TapAttack;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D2024DD1C6520BD004DA71B /* ForTheSilentNightPSG.mp3 in Resources */,
 				0DC47DAA1C63FD0300AB75C1 /* LaunchScreen.storyboard in Resources */,
 				0DC47DA71C63FD0300AB75C1 /* Assets.xcassets in Resources */,
 				0DC47DB21C64022100AB75C1 /* Minecraft.ttf in Resources */,
@@ -140,6 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0DC47DB41C6404F400AB75C1 /* Character.swift in Sources */,
 				0DC47DA21C63FD0300AB75C1 /* ViewController.swift in Sources */,
 				0DC47DA01C63FD0300AB75C1 /* AppDelegate.swift in Sources */,
 			);
@@ -289,6 +297,7 @@
 				0DC47DB01C63FD0300AB75C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
